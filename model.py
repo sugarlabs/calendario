@@ -16,7 +16,6 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 from gi.repository import Gtk
-import gi
 from gettext import gettext as _
 import logging
 from gi.repository import GObject
