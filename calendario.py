@@ -52,9 +52,9 @@ class CalendarioActivity(activity.Activity):
         self.calendar.connect('prev-year', self._mark_day_cb)
         self.mark_day()
 
-        self.tool_frame = Gtk.Frame(label="Tools")
-        self.reminder_expander = Gtk.Expander(label="Tasks reminder")
-        self.query_expander = Gtk.Expander(label="View by")
+        self.tool_frame = Gtk.Frame(label=_("Tools"))
+        self.reminder_expander = Gtk.Expander(label=_("Tasks reminder"))
+        self.query_expander = Gtk.Expander(label=_("View by"))
         self.tool_box = Gtk.VBox()
         
         #reminder
@@ -102,7 +102,7 @@ class CalendarioActivity(activity.Activity):
 
         ###right side###
         self.right_container = Gtk.VBox()
-        self.tasks_frame = Gtk.Frame(label="Tasks list")
+        self.tasks_frame = Gtk.Frame(label=_("Tasks list"))
         self.scroll_tasks = Gtk.ScrolledWindow()
         self.scroll_tasks.set_policy(Gtk.PolicyType.AUTOMATIC, Gtk.PolicyType.AUTOMATIC)
         self.tasks_list = Gtk.TreeView()
@@ -112,7 +112,7 @@ class CalendarioActivity(activity.Activity):
         self.tasks_frame.add(self.scroll_tasks)
 
         #options
-        self.options_expander = Gtk.Expander(label="Options")
+        self.options_expander = Gtk.Expander(label=_("Options"))
         self.options_box = Gtk.HBox()
         self.label_b_priority = Gtk.Label(label=_("Priority"))
         self.combobox_priority = Gtk.ComboBox()
