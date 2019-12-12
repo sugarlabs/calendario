@@ -1,7 +1,7 @@
 [Activity]
 name = Calendario
 bundle_id = org.laptop.calendario
-exec = sugar-activity calendario.CalendarioActivity
+exec = sugar-activity3 calendario.CalendarioActivity
 icon = icono
 activity_version = 6 
 show_launcher = yes
