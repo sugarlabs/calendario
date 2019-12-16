@@ -6,4 +6,4 @@ icon = icono
 activity_version = 6 
 show_launcher = yes
 mime_types = application/x-calendario
-licence = GPLv3
+license = GPLv3+
