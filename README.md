@@ -6,4 +6,4 @@ Calendario is a Sugar Activity that focuses on developing organizational skills 
 
 * [How to Get Sugar on sugarlabs.org](https://sugarlabs.org/)
 * [How to use Sugar](https://help.sugarlabs.org/)
-* [More about Devtutor](https://activities.sugarlabs.org/en-US/sugar/addon/4360)
+* [Download Calendario](https://activities.sugarlabs.org/en-US/sugar/addon/4360)
