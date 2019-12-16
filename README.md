@@ -1,6 +1,6 @@
 # Calendario #
 
-Calendario is a Sugar Activity that is focuses in develop the organizational skills on children. This activities is a simple calendar, tasks list and tasks reminder with the option of categorize and prioritize.
+Calendario is a Sugar Activity that focuses on developing organizational skills among children. This activities is a simple calendar, tasks list and tasks reminder with the option of categorize and prioritize.
 
 ### To know more about Calendario or Sugar, Please refer to: ###
 
