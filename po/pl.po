@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 21:19-0600\n"
-"PO-Revision-Date: 2011-12-12 16:44+0200\n"
-"Last-Translator: kama <kama-g@hotmail.com>\n"
+"POT-Creation-Date: 2012-03-06 02:18-0500\n"
+"PO-Revision-Date: 2012-03-07 14:47+0200\n"
+"Last-Translator: Marcin <ulinski.marcin@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -19,134 +19,158 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Pootle 2.0.5\n"
 
-#: activity/activity.info:2 calendario.py:35
+#: activity/activity.info:2
 msgid "Calendario"
 msgstr "Kalendarz"
 
-#: calendario.py:40
-msgid "Import ephemeris"
-msgstr "Importuj wydarzenia"
-
-#: calendario.py:41
-msgid "Calendar"
-msgstr "Kalendarz"
-
-#: calendario.py:51
+#: calendario.py:53
 msgid "Tools"
 msgstr "Narzędzia"
 
-#: calendario.py:62
-msgid "Today "
-msgstr "Dziś "
+#: calendario.py:54
+msgid "Tasks reminder"
+msgstr "Przypomnienie o zadaniach"
 
-#: calendario.py:92
-msgid "Pending Tasks"
-msgstr "Zadania do wykonania"
+#: calendario.py:55
+msgid "View by"
+msgstr "Widok według"
 
-#: calendario.py:113
-msgid "There are no ephemeris"
-msgstr "Nie ma żadnych wydarzeń"
-
-#: calendario.py:115
-msgid "There are no ephemeris imported"
-msgstr "Nie ma wydarzeń do zaimportowania"
-
-#: calendario.py:120
-msgid "Daily Ephemeris"
-msgstr "Wydarzenia - dziennie"
-
-#: calendario.py:136
-msgid "There are no phrases"
-msgstr "Nie ma żadnych zdań"
-
-#: calendario.py:138
-msgid "There are no phrases imported"
-msgstr "Nie ma żadnych zaimportowanych zdań"
-
-#: calendario.py:144
-msgid "Phrase of the week"
-msgstr "Zdanie tygodnia"
-
-#: calendario.py:156
-msgid "Add new"
-msgstr "Dodaj nowy"
-
-#: calendario.py:157
-msgid "Remove"
-msgstr "Usuń"
-
-#: calendario.py:158
-msgid "Import"
-msgstr "Importuj"
-
-#: calendario.py:159
-msgid "Modify"
-msgstr "Modyfikuj"
-
-#: calendario.py:162
-msgid "Notes"
-msgstr "Notatki"
-
-#: calendario.py:168
-msgid "Activities:"
-msgstr "Aktywności:"
-
-#: calendario.py:174
-msgid "Mathematics"
-msgstr "Matemetyka"
-
-#: calendario.py:175
-msgid "Geography"
-msgstr "Geografia"
-
-#: calendario.py:176
-msgid "Natural Science"
-msgstr "Nauki ścisłe"
-
-#: calendario.py:177
-msgid "Language"
-msgstr "Język"
-
-#: calendario.py:178
-msgid "Without category"
-msgstr "Bez kategorii"
-
-#: calendario.py:182
-msgid "Expand for options"
-msgstr "Więcej opcji"
-
-#: calendario.py:184
-msgid "Important"
-msgstr "Ważne"
-
-#: calendario.py:186
-msgid "In Progress"
-msgstr "Wykonywane"
-
-#: calendario.py:188
-msgid "Completed"
-msgstr "Zakończone"
-
-#: calendario.py:202
-msgid "Ephemeris"
-msgstr "Wydarzenia"
-
-#: calendario.py:203
-msgid "Phrases"
-msgstr "Zdania"
-
-#: calendario.py:421
-msgid "Activity"
-msgstr "Aktywność"
-
-#: calendario.py:422
-msgid "Category"
-msgstr "Kategoria"
-
-#: calendario.py:423
+#: calendario.py:68 calendario.py:115 calendario.py:179
 msgid "Priority"
 msgstr "Priorytet"
 
-#: calendario.py:424
-msgid "Status"
-msgstr "Stan"
+#: calendario.py:69 calendario.py:119 calendario.py:179
+msgid "Category"
+msgstr "Kategoria"
+
+#: calendario.py:84
+msgid "Filter"
+msgstr "Filtr"
+
+#: calendario.py:103
+msgid "Tasks list"
+msgstr "Lista Zadań"
+
+#: calendario.py:113
+msgid "Options"
+msgstr "Opcje"
+
+#: calendario.py:142
+msgid "Add new"
+msgstr "Dodaj nowy"
+
+#: calendario.py:144
+msgid "Remove"
+msgstr "Usuń"
+
+#: calendario.py:179
+msgid "Tasks"
+msgstr "Zadania"
+
+#: model.py:30 model.py:66
+msgid "Personal"
+msgstr "Osobiste"
+
+#: model.py:30 model.py:68
+msgid "Work"
+msgstr "Praca"
+
+#: model.py:30 model.py:70
+msgid "Study"
+msgstr "Nauka"
+
+#: model.py:31 model.py:76
+msgid "Low"
+msgstr "Niski"
+
+#: model.py:31 model.py:78
+msgid "Medium"
+msgstr "Średni"
+
+#: model.py:31 model.py:80
+msgid "High"
+msgstr "Wysoki"
+
+#~ msgid "Import ephemeris"
+#~ msgstr "Importuj wydarzenia"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalendarz"
+
+#~ msgid "Today "
+#~ msgstr "Dziś "
+
+#~ msgid "Pending Tasks"
+#~ msgstr "Zadania do wykonania"
+
+#~ msgid "There are no ephemeris"
+#~ msgstr "Nie ma żadnych wydarzeń"
+
+#~ msgid "There are no ephemeris imported"
+#~ msgstr "Nie ma wydarzeń do zaimportowania"
+
+#~ msgid "Daily Ephemeris"
+#~ msgstr "Wydarzenia - dziennie"
+
+#~ msgid "There are no phrases"
+#~ msgstr "Nie ma żadnych zdań"
+
+#~ msgid "There are no phrases imported"
+#~ msgstr "Nie ma żadnych zaimportowanych zdań"
+
+#~ msgid "Phrase of the week"
+#~ msgstr "Zdanie tygodnia"
+
+#~ msgid "Import"
+#~ msgstr "Importuj"
+
+#~ msgid "Modify"
+#~ msgstr "Modyfikuj"
+
+#~ msgid "Notes"
+#~ msgstr "Notatki"
+
+#~ msgid "Activities:"
+#~ msgstr "Aktywności:"
+
+#~ msgid "Mathematics"
+#~ msgstr "Matemetyka"
+
+#~ msgid "Geography"
+#~ msgstr "Geografia"
+
+#~ msgid "Natural Science"
+#~ msgstr "Nauki ścisłe"
+
+#~ msgid "Language"
+#~ msgstr "Język"
+
+#~ msgid "Without category"
+#~ msgstr "Bez kategorii"
+
+#~ msgid "Expand for options"
+#~ msgstr "Więcej opcji"
+
+#~ msgid "Important"
+#~ msgstr "Ważne"
+
+#~ msgid "In Progress"
+#~ msgstr "Wykonywane"
+
+#~ msgid "Completed"
+#~ msgstr "Zakończone"
+
+#~ msgid "Ephemeris"
+#~ msgstr "Wydarzenia"
+
+#~ msgid "Phrases"
+#~ msgstr "Zdania"
+
+#~ msgid "Activity"
+#~ msgstr "Aktywność"
+
+#~ msgid "Status"
+#~ msgstr "Stan"
+
+#~ msgid "Categoty"
+#~ msgstr "Kategoria"

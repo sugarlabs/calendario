@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 21:19-0600\n"
+"POT-Creation-Date: 2012-03-06 02:18-0500\n"
 "PO-Revision-Date: 2011-08-30 05:40+0200\n"
 "Last-Translator: Thangamani <thangam.arunx@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,138 +18,163 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.0.1\n"
 
-#: activity/activity.info:2 calendario.py:35
+#: activity/activity.info:2
 msgid "Calendario"
 msgstr "நாட்காட்டிஓ"
 
-#: calendario.py:40
-msgid "Import ephemeris"
-msgstr "சஞ்சிகையில் ஏற்று"
-
-#: calendario.py:41
-msgid "Calendar"
-msgstr "நாட்காட்டி"
-
-#: calendario.py:51
+#: calendario.py:53
 msgid "Tools"
 msgstr "கருவிகள்"
 
-#: calendario.py:62
-msgid "Today "
-msgstr "இன்று"
+#: calendario.py:54
+msgid "Tasks reminder"
+msgstr ""
 
-#: calendario.py:92
-msgid "Pending Tasks"
-msgstr "மிதமுள்ள காரியங்கள்"
+#: calendario.py:55
+msgid "View by"
+msgstr ""
 
-#: calendario.py:113
-#, fuzzy
-msgid "There are no ephemeris"
-msgstr "அங்கே சஞ்சிகைகள் இல்லை"
-
-#: calendario.py:115
-#, fuzzy
-msgid "There are no ephemeris imported"
-msgstr "அங்கே சஞ்சிகைகள் இறக்கப்படவில்லை"
-
-#: calendario.py:120
-msgid "Daily Ephemeris"
-msgstr "தினந்தோரம் சஞ்சிகைகள்"
-
-#: calendario.py:136
-#, fuzzy
-msgid "There are no phrases"
-msgstr "அங்ககே பத்திகள் இல்லை"
-
-#: calendario.py:138
-#, fuzzy
-msgid "There are no phrases imported"
-msgstr "அங்ககே பத்திகள் இறக்கப்படவில்லை"
-
-#: calendario.py:144
-msgid "Phrase of the week"
-msgstr "வாரத்திற்குள்ள பத்தி"
-
-#: calendario.py:156
-msgid "Add new"
-msgstr "புதியதை சேர்"
-
-#: calendario.py:157
-msgid "Remove"
-msgstr "அகற்று"
-
-#: calendario.py:158
-msgid "Import"
-msgstr "இறக்கு"
-
-#: calendario.py:159
-msgid "Modify"
-msgstr "மாற்று"
-
-#: calendario.py:162
-msgid "Notes"
-msgstr "குறிப்புகள்"
-
-#: calendario.py:168
-msgid "Activities:"
-msgstr "செயற்பாடுகள்:"
-
-#: calendario.py:174
-msgid "Mathematics"
-msgstr "கணிதவியல்"
-
-#: calendario.py:175
-msgid "Geography"
-msgstr "புவியியல்"
-
-#: calendario.py:176
-msgid "Natural Science"
-msgstr "இயற்கை அறிவியல்"
-
-#: calendario.py:177
-msgid "Language"
-msgstr "மொழி"
-
-#: calendario.py:178
-msgid "Without category"
-msgstr "வகைகள் அற்ற"
-
-#: calendario.py:182
-msgid "Expand for options"
-msgstr "தேர்வுகளுக்காக விரிவுப்படுத்து"
-
-#: calendario.py:184
-msgid "Important"
-msgstr "முக்கியம்"
-
-#: calendario.py:186
-msgid "In Progress"
-msgstr "நடைபெற்றிருக்கிறது"
-
-#: calendario.py:188
-msgid "Completed"
-msgstr "முடிந்தது"
-
-#: calendario.py:202
-msgid "Ephemeris"
-msgstr "சஞ்சிகை"
-
-#: calendario.py:203
-msgid "Phrases"
-msgstr "பத்திகள்"
-
-#: calendario.py:421
-msgid "Activity"
-msgstr "செயற்பாடு"
-
-#: calendario.py:422
-msgid "Category"
-msgstr "வகைகள்"
-
-#: calendario.py:423
+#: calendario.py:68 calendario.py:115 calendario.py:179
 msgid "Priority"
 msgstr "முதன்மையான"
 
-#: calendario.py:424
-msgid "Status"
-msgstr "நிலை"
+#: calendario.py:69 calendario.py:119 calendario.py:179
+msgid "Category"
+msgstr "வகைகள்"
+
+#: calendario.py:84
+msgid "Filter"
+msgstr ""
+
+#: calendario.py:103
+msgid "Tasks list"
+msgstr ""
+
+#: calendario.py:113
+msgid "Options"
+msgstr ""
+
+#: calendario.py:142
+msgid "Add new"
+msgstr "புதியதை சேர்"
+
+#: calendario.py:144
+msgid "Remove"
+msgstr "அகற்று"
+
+#: calendario.py:179
+msgid "Tasks"
+msgstr ""
+
+#: model.py:30 model.py:66
+msgid "Personal"
+msgstr ""
+
+#: model.py:30 model.py:68
+msgid "Work"
+msgstr ""
+
+#: model.py:30 model.py:70
+msgid "Study"
+msgstr ""
+
+#: model.py:31 model.py:76
+msgid "Low"
+msgstr ""
+
+#: model.py:31 model.py:78
+msgid "Medium"
+msgstr ""
+
+#: model.py:31 model.py:80
+msgid "High"
+msgstr ""
+
+#~ msgid "Import ephemeris"
+#~ msgstr "சஞ்சிகையில் ஏற்று"
+
+#~ msgid "Calendar"
+#~ msgstr "நாட்காட்டி"
+
+#~ msgid "Today "
+#~ msgstr "இன்று"
+
+#~ msgid "Pending Tasks"
+#~ msgstr "மிதமுள்ள காரியங்கள்"
+
+#, fuzzy
+#~ msgid "There are no ephemeris"
+#~ msgstr "அங்கே சஞ்சிகைகள் இல்லை"
+
+#, fuzzy
+#~ msgid "There are no ephemeris imported"
+#~ msgstr "அங்கே சஞ்சிகைகள் இறக்கப்படவில்லை"
+
+#~ msgid "Daily Ephemeris"
+#~ msgstr "தினந்தோரம் சஞ்சிகைகள்"
+
+#, fuzzy
+#~ msgid "There are no phrases"
+#~ msgstr "அங்ககே பத்திகள் இல்லை"
+
+#, fuzzy
+#~ msgid "There are no phrases imported"
+#~ msgstr "அங்ககே பத்திகள் இறக்கப்படவில்லை"
+
+#~ msgid "Phrase of the week"
+#~ msgstr "வாரத்திற்குள்ள பத்தி"
+
+#~ msgid "Import"
+#~ msgstr "இறக்கு"
+
+#~ msgid "Modify"
+#~ msgstr "மாற்று"
+
+#~ msgid "Notes"
+#~ msgstr "குறிப்புகள்"
+
+#~ msgid "Activities:"
+#~ msgstr "செயற்பாடுகள்:"
+
+#~ msgid "Mathematics"
+#~ msgstr "கணிதவியல்"
+
+#~ msgid "Geography"
+#~ msgstr "புவியியல்"
+
+#~ msgid "Natural Science"
+#~ msgstr "இயற்கை அறிவியல்"
+
+#~ msgid "Language"
+#~ msgstr "மொழி"
+
+#~ msgid "Without category"
+#~ msgstr "வகைகள் அற்ற"
+
+#~ msgid "Expand for options"
+#~ msgstr "தேர்வுகளுக்காக விரிவுப்படுத்து"
+
+#~ msgid "Important"
+#~ msgstr "முக்கியம்"
+
+#~ msgid "In Progress"
+#~ msgstr "நடைபெற்றிருக்கிறது"
+
+#~ msgid "Completed"
+#~ msgstr "முடிந்தது"
+
+#~ msgid "Ephemeris"
+#~ msgstr "சஞ்சிகை"
+
+#~ msgid "Phrases"
+#~ msgstr "பத்திகள்"
+
+#~ msgid "Activity"
+#~ msgstr "செயற்பாடு"
+
+#~ msgid "Status"
+#~ msgstr "நிலை"
+
+#, fuzzy
+#~ msgid "Categoty"
+#~ msgstr "வகைகள்"

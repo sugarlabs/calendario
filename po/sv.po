@@ -7,145 +7,148 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-03-15 10:25-0600\n"
-"PO-Revision-Date: 2011-02-26 09:07+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2012-03-06 02:18-0500\n"
+"PO-Revision-Date: 2017-03-29 12:49+0000\n"
+"Last-Translator: Anders <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.1\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1490791776.000000\n"
 
 #: activity/activity.info:2
-#: /home/yader/Documentos/calendario/mainline/calendario.py:34
 msgid "Calendario"
-msgstr "Calendar"
+msgstr "Calendario"
 
-#: /home/yader/Documentos/calendario/mainline/calendario.py:39
-msgid "Import ephemeris"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:40
-msgid "Calendar"
-msgstr "Calendar"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:50
+#: calendario.py:53
 msgid "Tools"
 msgstr "Verktyg"
 
-#: /home/yader/Documentos/calendario/mainline/calendario.py:62
-msgid "Today "
-msgstr "Idag "
+#: calendario.py:54
+msgid "Tasks reminder"
+msgstr "Uppgiftspåminnare"
 
-#: /home/yader/Documentos/calendario/mainline/calendario.py:103
-msgid "There's not ephemeris"
-msgstr ""
+#: calendario.py:55
+msgid "View by"
+msgstr "Visa efter"
 
-#: /home/yader/Documentos/calendario/mainline/calendario.py:105
-msgid "There's not ephemeris imported"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:110
-msgid "Daily Ephemeris"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:127
-msgid "There's not phrases"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:129
-msgid "There's not phrases imported"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:135
-msgid "Phrase of the week"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:147
-msgid "Add new"
-msgstr "Lägg till nya"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:148
-msgid "Remove"
-msgstr "Ta bort"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:149
-msgid "Import"
-msgstr "Importera"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:150
-msgid "Modify"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:153
-msgid "Notes"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:158
-msgid "Activities:"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:164
-msgid "Mathematic"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:165
-msgid "Geography"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:166
-msgid "Natural Science"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:167
-msgid "Language"
-msgstr "Språk"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:168
-msgid "Without category"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:172
-msgid "Expand for options"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:174
-msgid "Important"
-msgstr "Viktigt"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:176
-msgid "In Progress"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:178
-msgid "Completed"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:192
-msgid "Ephemeris"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:193
-msgid "Phrases"
-msgstr ""
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:410
-msgid "Activity"
-msgstr "Aktivitet"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:411
-msgid "Category"
-msgstr "Kategori"
-
-#: /home/yader/Documentos/calendario/mainline/calendario.py:412
+#: calendario.py:68 calendario.py:115 calendario.py:179
 msgid "Priority"
 msgstr "Prioritet"
 
-#: /home/yader/Documentos/calendario/mainline/calendario.py:413
-msgid "Status"
-msgstr ""
+#: calendario.py:69 calendario.py:119 calendario.py:179
+msgid "Category"
+msgstr "Kategori"
+
+#: calendario.py:84
+msgid "Filter"
+msgstr "Filter"
+
+#: calendario.py:103
+msgid "Tasks list"
+msgstr "Uppgiftslista"
+
+#: calendario.py:113
+msgid "Options"
+msgstr "Alternativ"
+
+#: calendario.py:142
+msgid "Add new"
+msgstr "Lägg till nya"
+
+#: calendario.py:144
+msgid "Remove"
+msgstr "Ta bort"
+
+#: calendario.py:179
+msgid "Tasks"
+msgstr "Uppgifter"
+
+#: model.py:30 model.py:66
+msgid "Personal"
+msgstr "Pesonligt"
+
+#: model.py:30 model.py:68
+msgid "Work"
+msgstr "Arbete"
+
+#: model.py:30 model.py:70
+msgid "Study"
+msgstr "Studier"
+
+#: model.py:31 model.py:76
+msgid "Low"
+msgstr "Låg"
+
+#: model.py:31 model.py:78
+msgid "Medium"
+msgstr "Medel"
+
+#: model.py:31 model.py:80
+msgid "High"
+msgstr "Hög"
+
+#~ msgid "Import ephemeris"
+#~ msgstr "Importera bandada"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendar"
+
+#~ msgid "Today "
+#~ msgstr "Idag "
+
+#~ msgid "Import"
+#~ msgstr "Importera"
+
+#~ msgid "Modify"
+#~ msgstr "Modifiera"
+
+#~ msgid "Notes"
+#~ msgstr "Anteckningar"
+
+#~ msgid "Activities:"
+#~ msgstr "Aktiviteter:"
+
+#, fuzzy
+#~ msgid "Mathematics"
+#~ msgstr "Matematik"
+
+#~ msgid "Geography"
+#~ msgstr "Geografi"
+
+#~ msgid "Natural Science"
+#~ msgstr "Naturvetenskap"
+
+#~ msgid "Language"
+#~ msgstr "Språk"
+
+#~ msgid "Without category"
+#~ msgstr "Utan kategori"
+
+#~ msgid "Expand for options"
+#~ msgstr "Utvidga för valmöjligheter"
+
+#~ msgid "Important"
+#~ msgstr "Viktigt"
+
+#~ msgid "Completed"
+#~ msgstr "Färdigt"
+
+#~ msgid "Ephemeris"
+#~ msgstr "Bandata"
+
+#~ msgid "Activity"
+#~ msgstr "Aktivitet"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#, fuzzy
+#~ msgid "Categoty"
+#~ msgstr "Kategori"
 
 #~ msgid "None"
 #~ msgstr "Inget"

@@ -4,9 +4,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-27 21:19-0600\n"
-"PO-Revision-Date: 2011-11-21 05:34+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
+"POT-Creation-Date: 2012-03-06 02:18-0500\n"
+"PO-Revision-Date: 2013-10-08 03:44+0200\n"
+"Last-Translator: Z <yachaq@hotmail.co.nz>\n"
 "Language-Team: Voluntarios Quechua Sugar Camp\n"
 "Language: quz\n"
 "MIME-Version: 1.0\n"
@@ -16,166 +16,196 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #  "Calendario"
-#: activity/activity.info:2 calendario.py:35
+#: activity/activity.info:2
 msgid "Calendario"
 msgstr "Wata watana"
 
-#  "Importar efemerides"
-#: calendario.py:40
-msgid "Import ephemeris"
-msgstr "Hawamanta fermidesta apachiy"
-
-#  "Calendario"
-#: calendario.py:41
-msgid "Calendar"
-msgstr "Wata watana"
-
 #  "Herramientas"
-#: calendario.py:51
+#: calendario.py:53
 msgid "Tools"
 msgstr "Llamk'anakuna"
 
-#  "Hoy "
-#: calendario.py:62
-msgid "Today "
-msgstr "Kunan p'unchaw "
+#: calendario.py:54
+msgid "Tasks reminder"
+msgstr ""
 
-#  "Tareas pendientes"
-#: calendario.py:92
-msgid "Pending Tasks"
-msgstr "Ruwanapaq ruwanakuna"
+#: calendario.py:55
+msgid "View by"
+msgstr ""
 
-#  "No hay efemérides"
+#  "Prioridad"
+#: calendario.py:68 calendario.py:115 calendario.py:179
+msgid "Priority"
+msgstr "Ñawparichinapaq"
+
+#  "Categoria"
+#: calendario.py:69 calendario.py:119 calendario.py:179
+msgid "Category"
+msgstr "T'aqa"
+
+#: calendario.py:84
+msgid "Filter"
+msgstr ""
+
+#: calendario.py:103
+msgid "Tasks list"
+msgstr ""
+
 #: calendario.py:113
-msgid "There are no ephemeris"
-msgstr "Mana ephermis kankuchu"
-
-#  "No hay efemérides importadas"
-#: calendario.py:115
-msgid "There are no ephemeris imported"
-msgstr "Hawamanta ephermis mana kankuchu"
-
-#  "Efemerides diarias"
-#: calendario.py:120
-msgid "Daily Ephemeris"
-msgstr "Sapa p'unchawpi Ephemeris"
-
-#  "No hay frases"
-#: calendario.py:136
-msgid "There are no phrases"
-msgstr "Mana simikuna kankuchu"
-
-#  "No hay frases importadas"
-#: calendario.py:138
-msgid "There are no phrases imported"
-msgstr "Hawamanta rimachaykuna mana kankuchu"
-
-#  "Frase de la semana"
-#: calendario.py:144
-msgid "Phrase of the week"
-msgstr "Qanchischawpa rimachaynin"
+msgid "Options"
+msgstr ""
 
 #  "Agregar"
-#: calendario.py:156
+#: calendario.py:142
 msgid "Add new"
 msgstr "Musuqta yapay"
 
 #  "Eliminar"
-#: calendario.py:157
+#: calendario.py:144
 msgid "Remove"
 msgstr "Chinkachiy"
 
+#: calendario.py:179
+msgid "Tasks"
+msgstr ""
+
+#: model.py:30 model.py:66
+msgid "Personal"
+msgstr ""
+
+#: model.py:30 model.py:68
+msgid "Work"
+msgstr "Llank'ay"
+
+#: model.py:30 model.py:70
+msgid "Study"
+msgstr ""
+
+# Bajo
+#: model.py:31 model.py:76
+#, fuzzy
+msgid "Low"
+msgstr "Pisi"
+
+#: model.py:31 model.py:78
+msgid "Medium"
+msgstr ""
+
+# Alto
+#: model.py:31 model.py:80
+#, fuzzy
+msgid "High"
+msgstr "Achkha"
+
+#  "Importar efemerides"
+#~ msgid "Import ephemeris"
+#~ msgstr "Hawamanta fermidesta apachiy"
+
+#  "Calendario"
+#~ msgid "Calendar"
+#~ msgstr "Wata watana"
+
+#  "Hoy "
+#~ msgid "Today "
+#~ msgstr "Kunan p'unchaw "
+
+#  "Tareas pendientes"
+#~ msgid "Pending Tasks"
+#~ msgstr "Ruwanapaq ruwanakuna"
+
+#  "No hay efemérides"
+#~ msgid "There are no ephemeris"
+#~ msgstr "Mana ephermis kankuchu"
+
+#  "No hay efemérides importadas"
+#~ msgid "There are no ephemeris imported"
+#~ msgstr "Hawamanta ephermis mana kankuchu"
+
+#  "Efemerides diarias"
+#~ msgid "Daily Ephemeris"
+#~ msgstr "Sapa p'unchawpi Ephemeris"
+
+#  "No hay frases"
+#~ msgid "There are no phrases"
+#~ msgstr "Mana simikuna kankuchu"
+
+#  "No hay frases importadas"
+#~ msgid "There are no phrases imported"
+#~ msgstr "Hawamanta rimachaykuna mana kankuchu"
+
+#  "Frase de la semana"
+#~ msgid "Phrase of the week"
+#~ msgstr "Qanchischawpa rimachaynin"
+
 #  "Importar"
-#: calendario.py:158
-msgid "Import"
-msgstr "Apachimuy"
+#~ msgid "Import"
+#~ msgstr "Apachimuy"
 
 #  "Modificar"
-#: calendario.py:159
-msgid "Modify"
-msgstr "Allinchay"
+#~ msgid "Modify"
+#~ msgstr "Allinchay"
 
 #  "Notas"
-#: calendario.py:162
-msgid "Notes"
-msgstr "Willaykuna"
+#~ msgid "Notes"
+#~ msgstr "Willaykuna"
 
 #  "Actividades:"
-#: calendario.py:168
-msgid "Activities:"
-msgstr "Ruwanakuna:"
+#~ msgid "Activities:"
+#~ msgstr "Ruwanakuna:"
 
 #  "Matemática"
-#: calendario.py:174
-msgid "Mathematics"
-msgstr "Matemática nisqa"
+#~ msgid "Mathematics"
+#~ msgstr "Matemática nisqa"
 
 #  "Geografía"
-#: calendario.py:175
-msgid "Geography"
-msgstr "Teqsimuyumanta"
+#~ msgid "Geography"
+#~ msgstr "Teqsimuyumanta"
 
 #  "Ciencias naturales"
-#: calendario.py:176
-msgid "Natural Science"
-msgstr "Pachamanta yachana"
+#~ msgid "Natural Science"
+#~ msgstr "Pachamanta yachana"
 
 #  "Lengua"
-#: calendario.py:177
-msgid "Language"
-msgstr "Simi"
+#~ msgid "Language"
+#~ msgstr "Simi"
 
 #  "Sin categoria"
-#: calendario.py:178
-msgid "Without category"
-msgstr "Mana t'aqayuq"
+#~ msgid "Without category"
+#~ msgstr "Mana t'aqayuq"
 
 #  "Expandir para mas opciones"
-#: calendario.py:182
-msgid "Expand for options"
-msgstr "Aswan akllanakunapaq hatunyachiy"
+#~ msgid "Expand for options"
+#~ msgstr "Aswan akllanakunapaq hatunyachiy"
 
 #  "Importante"
-#: calendario.py:184
-msgid "Important"
-msgstr "Chaniyuq"
+#~ msgid "Important"
+#~ msgstr "Chaniyuq"
 
 #  "En progreso"
-#: calendario.py:186
-msgid "In Progress"
-msgstr "Ruwachkan"
+#~ msgid "In Progress"
+#~ msgstr "Ruwachkan"
 
 #  "Completo"
-#: calendario.py:188
-msgid "Completed"
-msgstr "Tukukusqa"
+#~ msgid "Completed"
+#~ msgstr "Tukukusqa"
 
 #  "Efemerides"
-#: calendario.py:202
-msgid "Ephemeris"
-msgstr "Efermides"
+#~ msgid "Ephemeris"
+#~ msgstr "Efermides"
 
 #  "Frases"
-#: calendario.py:203
-msgid "Phrases"
-msgstr "Rimachaykuna"
+#~ msgid "Phrases"
+#~ msgstr "Rimachaykuna"
 
 #  "Actividad"
-#: calendario.py:421
-msgid "Activity"
-msgstr "Ruwana"
-
-#  "Categoria"
-#: calendario.py:422
-msgid "Category"
-msgstr "T'aqa"
-
-#  "Prioridad"
-#: calendario.py:423
-msgid "Priority"
-msgstr "Ñawparichinapaq"
+#~ msgid "Activity"
+#~ msgstr "Ruwana"
 
 #  "Estado"
-#: calendario.py:424
-msgid "Status"
-msgstr "Imayna kaynin"
+#~ msgid "Status"
+#~ msgstr "Imayna kaynin"
+
+# "Categoria"
+#, fuzzy
+#~ msgid "Categoty"
+#~ msgstr "T'aqa"
