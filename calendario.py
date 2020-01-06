@@ -23,6 +23,8 @@ from database import DataBase
 from model import ComboBoxModel, TasksModel
 from sugar3.activity import activity, widgets
 from sugar3.graphics.toolbarbox import ToolbarBox
+from sugar3.activity.widgets import ActivityToolbarButton
+from sugar3.activity.widgets import StopButton
 from gettext import gettext as _
 from datetime import date, datetime
 import logging
@@ -40,6 +42,21 @@ class CalendarioActivity(activity.Activity):
         toolbox = ToolbarBox()
         self.set_toolbar_box(toolbox)
         toolbox.show()
+
+        activity_button = ActivityToolbarButton(self)
+        toolbox.toolbar.insert(activity_button, -1)
+        activity_button.show()
+
+        separator = Gtk.SeparatorToolItem()
+        separator.props.draw = False
+        separator.set_expand(True)
+        toolbox.toolbar.insert(separator, -1)
+        separator.show()
+
+        stop_button = StopButton(self)
+        toolbox.toolbar.insert(stop_button, -1)
+        stop_button.show()
+        self.show_all()
         self.path = self.get_activity_root()
         ###left side###
         self.left_container = Gtk.VBox()
