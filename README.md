@@ -7,3 +7,8 @@ Calendario is a Sugar Activity that focuses on developing organizational skills 
 * [How to Get Sugar on sugarlabs.org](https://sugarlabs.org/)
 * [How to use Sugar](https://help.sugarlabs.org/)
 * [Download Calendario](https://activities.sugarlabs.org/en-US/sugar/addon/4360)
+
+Activity can also be installed using
+`yum install sugar-calendar`.
+
+Activity was originally developed by [Yader Velásquez ](yaderv@fedoraproject.org)
