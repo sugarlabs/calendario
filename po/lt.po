@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-17 10:44+1100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: activity/activity.info:2
+msgid "Calendario"
+msgstr ""
+
+#: calendario.py:55
+msgid "Tools"
+msgstr ""
+
+#: calendario.py:56
+msgid "Tasks reminder"
+msgstr ""
+
+#: calendario.py:57
+msgid "View by"
+msgstr ""
+
+#: calendario.py:70 calendario.py:117 calendario.py:181
+msgid "Priority"
+msgstr ""
+
+#: calendario.py:71 calendario.py:121 calendario.py:181
+msgid "Category"
+msgstr ""
+
+#: calendario.py:86
+msgid "Filter"
+msgstr ""
+
+#: calendario.py:105
+msgid "Tasks list"
+msgstr ""
+
+#: calendario.py:115
+msgid "Options"
+msgstr ""
+
+#: calendario.py:144
+msgid "Add new"
+msgstr ""
+
+#: calendario.py:146
+msgid "Remove"
+msgstr ""
+
+#: calendario.py:181
+msgid "Tasks"
+msgstr ""
+
+#: model.py:29 model.py:65
+msgid "Personal"
+msgstr ""
+
+#: model.py:29 model.py:67
+msgid "Work"
+msgstr ""
+
+#: model.py:29 model.py:69
+msgid "Study"
+msgstr ""
+
+#: model.py:30 model.py:75
+msgid "Low"
+msgstr ""
+
+#: model.py:30 model.py:77
+msgid "Medium"
+msgstr ""
+
+#: model.py:30 model.py:79
+msgid "High"
+msgstr ""
